@@ -16,6 +16,6 @@
 - consumi | VARCHAR(15) - NULL
 - prezzo | DECIMAL (8,2) - NULL
 - sconto | TINYINT - NULL
-- disponibilità | TINYINT - NULL
-- quantità | TINYINT - NULL
+- disponibilità | TINYINT - DEFAULT(1)
+- quantità | TINYINT - NOT NULL
 - ecoincentivo | INT - NULL
